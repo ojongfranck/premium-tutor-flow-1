@@ -72,7 +72,7 @@ export function ThanksPage() {
             asChild
             className="w-full bg-brand-magenta hover:bg-brand-fuchsia text-white rounded-full py-8 text-xl font-bold shadow-xl shadow-brand-magenta/20 transition-all hover:scale-[1.02] active:scale-[0.98]"
           >
-            <a href="https://chat.whatsapp.com/placeholder" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+            <a href="https://wa.link/8zkyp6" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
               <MessageCircle size={24} /> Continue To WhatsApp
             </a>
           </Button>
