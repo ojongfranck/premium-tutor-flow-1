@@ -32,7 +32,7 @@
     "noImplicitOverride": false,
 
     /* Path mapping */
-    "baseUrl": ".",
+    // "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }

@@ -38,23 +38,23 @@ export function Hero() {
             >
               <Link to="/apply">Start Application</Link>
             </Button>
-            <Button
+            {/* <Button
               variant="outline"
               asChild
               className="border-2 border-brand-magenta text-brand-magenta hover:bg-brand-magenta/5 rounded-full px-8 py-7 text-lg transition-all hover:scale-105 active:scale-95"
             >
               <a href="#masterclass">Watch Free Masterclass</a>
-            </Button>
+            </Button> */}
           </div>
 
           <div className="flex items-center gap-8">
-            <div className="flex -space-x-3">
+            {/* <div className="flex -space-x-3">
               {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
                   <img src={`https://i.pravatar.cc/150?u=${i}`} alt="user" className="w-full h-full object-cover" />
                 </div>
               ))}
-            </div>
+            </div> */}
             <div className="text-sm text-gray-500">
               <div className="flex items-center gap-1 text-brand-gold mb-0.5">
                 {[1, 2, 3, 4, 5].map((i) => (

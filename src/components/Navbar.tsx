@@ -11,7 +11,7 @@ const navLinks = [
   { name: 'Results', href: '/#results' },
   { name: 'Benefits', href: '/#benefits' },
   { name: 'Free Masterclass', href: '/#masterclass' },
-  { name: 'Pricing', href: '/#pricing' },
+  // { name: 'Pricing', href: '/#pricing' },
   { name: 'Testimonials', href: '/#testimonials' },
   { name: 'FAQ', href: '/#faq' },
 ];

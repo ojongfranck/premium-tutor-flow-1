@@ -5,43 +5,43 @@ import { Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Blessing A.',
-    text: 'I finally understood how tutoring platforms work. FSL Hub made it so simple!',
-    location: 'Lagos, Nigeria',
+    text: 'I finally understood how tutoring platforms work.',
+    location: 'New Tutor',
   },
   {
     name: 'Koffi D.',
-    text: 'The guidance helped me create my tutoring profile confidently. I got my first student in 2 weeks!',
-    location: 'Abidjan, Ivory Coast',
+    text: 'The guidance helped me create my tutoring profile confidently.',
+    location: 'Beginner',
   },
   {
     name: 'Sarah M.',
-    text: 'I stopped wasting time and finally got clarity. The community support is amazing.',
-    location: 'Nairobi, Kenya',
+    text: 'I stopped wasting time and finally got clarity.',
+    location: 'Mentee',
   },
   {
     name: 'Emeka O.',
-    text: 'Best investment I have made this year. The step-by-step roadmap is a game changer.',
-    location: 'Abuja, Nigeria',
+    text: 'Step-by-step support made all the difference for me.',
+    location: 'First-time Tutor',
   },
   {
     name: 'Fatima S.',
-    text: 'Highly recommend FSL for any beginner. They really care about your success.',
-    location: 'Dakar, Senegal',
+    text: 'Within weeks I had my first student lined up.',
+    location: 'student',
   },
   {
     name: 'John K.',
-    text: 'The profile optimization tips are pure gold. My profile views skyrocketed!',
-    location: 'Accra, Ghana',
+    text: 'Worth every franc. The community alone is gold.',
+    location: 'Mentee',
   },
   {
     name: 'Marie L.',
     text: 'I was skeptical at first, but the results speak for themselves. I am now tutoring full-time.',
-    location: 'Paris, France',
+    location: 'New Tutor',
   },
   {
     name: 'David W.',
     text: 'Professional, trustworthy, and effective. The masterclass was eye-opening.',
-    location: 'London, UK',
+    location: 'Mentee',
   },
 ];
 
