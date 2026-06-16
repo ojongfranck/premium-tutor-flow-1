@@ -60,12 +60,13 @@ export function About() {
               whileHover={{ y: -10 }}
               className="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 border border-gray-100 flex flex-col"
             >
-              <div className="aspect-square rounded-2xl overflow-hidden mb-6">
+              <div className="aspect-auto rounded-2xl overflow-hidden mb-6">
                 <img src={mentor.image} alt={mentor.name} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-1">{mentor.name}</h3>
               <p className="text-brand-magenta font-semibold text-sm mb-4">{mentor.title}</p>
               <p className="text-gray-600 mb-8 flex-grow">{mentor.intro}</p>
+              {/* <img src={mentor.resultsImage} alt={mentor.name} className="w-full h-full object-cover" /> */}
               <Button
                 onClick={() => setSelectedMentor(mentor)}
                 variant="ghost"
