@@ -3,34 +3,40 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronRight, Award, Briefcase, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import mentor1 from '@/assets/mentor-1.jpg';
+import mentor2 from '@/assets/mentor-2.jpg';
+import mentor3 from '@/assets/mentor-3.jpg';
+import earning1 from '@/assets/earning-1.jpg';
+import earning2 from '@/assets/earning-2.jpg';
+import earning3 from '@/assets/earning-3.jpg';
 
 const mentors = [
   {
     id: 1,
-    name: 'T. Lari Fortune',
-    title: 'Founder & Head Mentor',
+    name: 'Lari Fortune',
+    title: 'Online Coach & Tutor',
     intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
     fullStory: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Education Hub to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
-    image: 'https://storage.googleapis.com/dala-prod-public-storage/generated-images/6d647706-cf80-4ac4-bc19-c789ad5e0de5/mentor-1-94d5f389-1781401771068.webp',
-    resultsImage: 'https://storage.googleapis.com/dala-prod-public-storage/generated-images/6d647706-cf80-4ac4-bc19-c789ad5e0de5/earnings-dashboard-e80c6f4b-1781401768689.webp',
+    image: mentor1,
+    resultsImage: earning1,
   },
   {
     id: 2,
-    name: 'Sarah Jenkins',
+    name: 'Hon. Shirley Lakeh',
     title: 'Senior Tutoring Consultant',
     intro: 'Specializes in profile optimization and platform communication strategies for international markets.',
     fullStory: 'Sarah joined FSL after achieving top-rated status on three major tutoring platforms within her first six months. She now leads our consulting division, ensuring every student presents their best self to potential clients. Her strategies have increased student booking rates by an average of 150%.',
-    image: 'https://i.pravatar.cc/400?u=sarah',
-    resultsImage: 'https://storage.googleapis.com/dala-prod-public-storage/generated-images/6d647706-cf80-4ac4-bc19-c789ad5e0de5/earnings-dashboard-e80c6f4b-1781401768689.webp',
+    image: mentor2,
+    resultsImage: earning2,
   },
   {
     id: 3,
-    name: 'Michael Chen',
+    name: 'Franck Ronald',
     title: 'Success Manager',
     intro: 'Dedicated to student results and ensuring every mentee hits their first $1000 milestone.',
     fullStory: 'Michael is the backbone of our community support. With a background in educational psychology, he understands the hurdles beginners face. He has personally overseen the onboarding of 300+ successful tutors and maintains our 98% student satisfaction rate.',
-    image: 'https://i.pravatar.cc/400?u=michael',
-    resultsImage: 'https://storage.googleapis.com/dala-prod-public-storage/generated-images/6d647706-cf80-4ac4-bc19-c789ad5e0de5/earnings-dashboard-e80c6f4b-1781401768689.webp',
+    image: mentor3,
+    resultsImage: earning3,
   },
 ];
 
