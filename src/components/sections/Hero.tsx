@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { GraduationCap, Star, ShieldCheck, Users } from 'lucide-react';
+import flyer from '@/assets/flyer.jpg'
 
 export function Hero() {
   return (
@@ -74,7 +75,7 @@ export function Hero() {
         >
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl shadow-brand-magenta/20 border border-white/20">
             <img
-              src="https://storage.googleapis.com/dala-prod-public-storage/generated-images/6d647706-cf80-4ac4-bc19-c789ad5e0de5/tutor-setup-84767900-1781401768714.webp"
+              src= {flyer}
               alt="Online Tutoring Setup"
               className="w-full h-auto"
             />
