@@ -97,17 +97,17 @@ The template includes dark mode support through Tailwind's `dark:` classes and C
 
 Feel free to submit issues and enhancement requests!
 
-**⚡ Powered by [Dala](https://dala.gebeya.com)** - The AI-powered web development platform that helps you build full-stack applications faster.
+**⚡ Powered by [Tutor Academy](https://Tutor Academy.FSL.com)** - The AI-powered web development platform that helps you build full-stack applications faster.
 
 ---
 
-## 🤖 What is Dala?
+## 🤖 What is Tutor Academy?
 
-**[Gebeya Dala](https://dala.gebeya.com)** is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
+**[FSL Tutor Academy](https://Tutor Academy.FSL.com)** is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
 
-🔗 **Try Dala:** [dala.gebeya.com](https://dala.gebeya.com)
+🔗 **Try Tutor Academy:** [Tutor Academy.FSL.com](https://Tutor Academy.FSL.com)
 
-### Why Use Dala?
+### Why Use Tutor Academy?
 
 - **AI-Powered Development** - Get intelligent code suggestions and automated component generation
 - **Instant Preview** - See your changes live in real-time sandbox environments
@@ -117,4 +117,4 @@ Feel free to submit issues and enhancement requests!
 
 ---
 
-Built with ❤️ by the Dala team to help developers build faster and smarter.
+Built with ❤️ by the Tutor Academy team to help developers build faster and smarter.

@@ -24,7 +24,7 @@ export function LandingPage() {
           {/* <Pricing /> */}
           <Testimonials />
           <FAQ />
-          <FollowUs />
+          {/* <FollowUs /> */}
         </main>
         <Footer />
       </div>

@@ -25,12 +25,12 @@ export function Hero() {
           </div>
 
           <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-[1.1] mb-6">
-            Start Your <span className="text-brand-magenta">Online Tutoring</span> Journey The Right Way
+            Become A Highly Booked <span className="text-brand-magenta">Online Tutor</span> In 30 Days
           </h1>
 
-          <p className="text-xl text-gray-600 mb-8 max-w-xl">
+          {/* <p className="text-xl text-gray-600 mb-8 max-w-xl">
             Learn how beginners are creating tutoring accounts, understanding tutoring platforms, and starting remotely with proper guidance.
-          </p>
+          </p> */}
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button

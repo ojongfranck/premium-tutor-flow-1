@@ -50,10 +50,10 @@ export function Footer() {
           © {new Date().getFullYear()} FSL Education Hub. All rights reserved.
         </p>
 
-        <div className="flex gap-6 text-sm font-medium text-gray-500">
+        {/* <div className="flex gap-6 text-sm font-medium text-gray-500">
           <a href="#" className="hover:text-brand-magenta transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-brand-magenta transition-colors">Terms of Service</a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
