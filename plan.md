@@ -1,6 +1,6 @@
-# Implementation Plan - FSL Education Hub
+# Implementation Plan - FSL Tutor Academy
 
-Build a premium, high-converting landing page, application flow, and thank-you page for FSL Education Hub, focusing on online tutoring mentorship.
+Build a premium, high-converting landing page, application flow, and thank-you page for FSL Tutor Academy, focusing on online tutoring mentorship.
 
 ## Scope & Non-Goals
 - **Scope:** Landing page (Home, About, Results, Benefits, Pricing, FAQ, Follow Us), Multi-step Application Form, Thank You Page.

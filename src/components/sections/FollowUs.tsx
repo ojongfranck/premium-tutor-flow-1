@@ -47,7 +47,7 @@ export function Footer() {
         </div>
 
         <p className="text-gray-500 text-sm">
-          © {new Date().getFullYear()} FSL Education Hub. All rights reserved.
+          © {new Date().getFullYear()} FSL Tutor Academy. All rights reserved.
         </p>
 
         {/* <div className="flex gap-6 text-sm font-medium text-gray-500">

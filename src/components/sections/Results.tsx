@@ -148,18 +148,6 @@ const testimonials = [
     location: 'Mentee',
     review: review6,
   },
-  // {
-  //   name: 'Marie L.',
-  //   text: 'I was skeptical at first, but the results speak for themselves. I am now tutoring full-time.',
-  //   location: 'New Tutor',
-  //   image: mentor1,
-  // },
-  // {
-  //   name: 'David W.',
-  //   text: 'Professional, trustworthy, and effective. The masterclass was eye-opening.',
-  //   location: 'Mentee',
-  //   image: mentor1,
-  // },
 ];
 
 export function Results() {
@@ -185,11 +173,11 @@ export function Results() {
     <section id="testimonials" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-center">
-          What Our <span className="text-brand-magenta">Students Say</span>
+          What My <span className="text-brand-magenta">Students Say</span>
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg text-center">
-          Join 2+ successful mentorship clients who have transformed their careers with FSL Education Hub.
-        </p>
+        {/* <p className="text-gray-600 max-w-2xl mx-auto text-lg text-center">
+          Join 2+ successful mentorship clients who have transformed their careers with FSL Tutor Academy.
+        </p> */}
       </div>
 
       <div className="flex relative">

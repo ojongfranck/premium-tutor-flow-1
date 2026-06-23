@@ -7,47 +7,85 @@ import { Input } from '@/components/ui/input';
 import { Progress } from '@/components/ui/progress';
 import { toast } from 'sonner';
 
+
+// const questions = [
+
+//   { 
+//     id: 1,
+//     field: "tried", 
+//     question: "What made you interested in online tutoring right now?", 
+//     options: ["I want extra income", "I want to work from home", "I'm tired of my current situation", "Poverty has sat me down"] 
+
+//   },
+
+//   { 
+//     id: 2,
+//     field: "why", 
+//     question: "How much would you love to make monthly from online tutoring?", 
+//     options: ["$100-$300", "$300-$500", "$700-$1500", "$1500-$3000"] 
+//   },
+
+//   { 
+//     id: 3,
+//     field: "willing", 
+//     question: "If you could start earnig from home, what will motivate you the most?", 
+//     options: ["Financial freedom", "Supporting my family", "Leaving my job", "Paying school fees or bills", "Others"] 
+//   },
+
+//   { 
+//     id: 4,
+//     field: "struggle", 
+//     question: "If this masterclass gives you a clear road map to start tutoring online, would you be able to take action immediatly?", 
+//     options: ["Yes, absolutely", "Maybe, depending on the process", "I need more information first", "Not sure yet"] 
+//   },
+// ];
+
 const questions = [
-  {
+    { 
     id: 1,
-    question: "Have you ever tried online tutoring before?",
-    options: ["Yes", "No"],
-    field: "triedBefore",
+    field: "tried", 
+    question: "What made you interested in online tutoring right now?", 
+    options: ["I want extra income", "I want to work from home", "I'm tired of my current situation", "Poverty has sat me down"] 
+
   },
-  {
+
+  { 
     id: 2,
-    question: "Why are you interested in online tutoring?",
-    options: ["Extra income", "Full-time income", "Flexible work", "Remote opportunities"],
-    field: "reason",
+    field: "why", 
+    question: "How much would you love to make monthly from online tutoring?", 
+    options: ["$100-$300", "$300-$500", "$700-$1500", "$1500-$3000"] 
   },
-  {
+
+  { 
     id: 3,
-    question: "Are you willing to invest time learning how tutoring platforms work?",
-    options: ["Yes", "Not sure"],
-    field: "willingToInvest",
+    field: "willing", 
+    question: "If you could start earnig from home, what will motivate you the most?", 
+    options: ["Financial freedom", "Supporting my family", "Leaving my job", "Paying school fees or bills", "Others"] 
   },
-  {
+
+  { 
     id: 4,
-    question: "What is your biggest struggle right now?",
-    options: ["Getting students", "Creating accounts", "No experience", "Don't know where to start", "Confidence"],
-    field: "biggestStruggle",
+    field: "struggle", 
+    question: "If this masterclass gives you a clear road map to start tutoring online, would you be able to take action immediatly?", 
+    options: ["Yes, absolutely", "Maybe, depending on the process", "I need more information first", "Not sure yet"] 
   },
-  {
-    id: 5,
-    question: "Are you serious about starting within the next 30 days?",
-    options: ["Yes", "Just exploring"],
-    field: "isSerious",
-  },
+  
+  // {
+  //   id: 5,
+  //   question: "Are you serious about starting within the next 30 days?",
+  //   options: ["Yes", "Just exploring"],
+  //   field: "isSerious",
+  // },
 ];
 
 export function ApplyPage() {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
-    triedBefore: "",
-    reason: "",
-    willingToInvest: "",
-    biggestStruggle: "",
-    isSerious: "",
+    tried: "",
+    why: "",
+    willing: "",
+    struggle: "",
+    // isSerious: "",
     fullName: "",
     email: "",
     whatsapp: "",
@@ -55,7 +93,7 @@ export function ApplyPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
 
-  const progress = (step / 7) * 100;
+  const progress = (step / 6) * 100;
 
   const handleOptionSelect = (field: string, value: string) => {
     setFormData({ ...formData, [field]: value });
@@ -100,11 +138,11 @@ export function ApplyPage() {
               <span className="text-white font-bold text-xl">F</span>
             </div>
             <span className="font-bold text-xl text-gray-900 tracking-tight">
-              FSL Education Hub
+              FSL Tutor Academy
             </span>
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Mentorship Application</h1>
-          <p className="text-gray-500">Step {step} of 7</p>
+          <p className="text-gray-500">Step {step} of 6</p>
         </div>
 
         {/* Progress Bar */}
@@ -115,7 +153,7 @@ export function ApplyPage() {
         {/* Form Container */}
         <div className="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-xl shadow-gray-200/50 border border-gray-100 min-h-[400px] flex flex-col justify-center">
           <AnimatePresence mode="wait">
-            {step <= 5 ? (
+            {step <= 4 ? (
               <motion.div
                 key={`step-${step}`}
                 initial={{ opacity: 0, x: 20 }}

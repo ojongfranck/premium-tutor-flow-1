@@ -13,38 +13,38 @@ import {
 const benefits = [
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Beginner-Friendly Guidance',
-    description: 'How to become an online tutor',
+    // title: 'Beginner-Friendly Guidance',
+    title: 'How to become an online tutor',
   },
   {
     icon: <Settings className="w-8 h-8" />,
-    title: 'Tutoring Account Setup Support',
-    description: 'The requirements to get started',
+    // title: 'Tutoring Account Setup Support',
+    title: 'The requirements to get started',
   },
   {
     icon: <Layout className="w-8 h-8" />,
-    title: 'Profile Optimization',
-    description: 'How to create a professional tutor profile',
+    // title: 'Profile Optimization',
+    title: 'How to create a professional tutor profile',
   },
   {
     icon: <Globe className="w-8 h-8" />,
-    title: 'Remote Income Opportunities',
-    description: 'How to attract international students',
+    // title: 'Remote Income Opportunities',
+    title: 'How to attract international students',
   },
   {
     icon: <Rocket className="w-8 h-8" />,
-    title: 'Community Access',
-    description: 'How to retain students and grow your income',
+    // title: 'Community Access',
+    title: 'How to retain students and grow your income',
   },
   {
     icon: <Map className="w-8 h-8" />,
-    title: 'Step-by-Step Roadmap',
-    description: 'Common beginner mistakes to avoid',
+    // title: 'Step-by-Step Roadmap',
+    title: 'Common beginner mistakes to avoid',
   },
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Ongoing Mentorship',
-    description: 'How to get consistent bookings',
+    // title: 'Ongoing Mentorship',
+    title: 'How to get consistent bookings',
   },
   // {
   //   icon: <Shield className="w-8 h-8" />,
@@ -75,7 +75,7 @@ export function Benefits() {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             What you will learn
-            {/* Why Choose <span className="text-brand-magenta">FSL Education Hub</span>? */}
+            {/* Why Choose <span className="text-brand-magenta">FSL Tutor Academy</span>? */}
           </h2>
           {/* <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             We provide everything you need to start your online tutoring business with confidence and clarity.
@@ -100,11 +100,11 @@ export function Benefits() {
               }}
               className="p-8 rounded-[2rem] border border-gray-100 bg-white shadow-sm transition-all duration-300"
             >
-              {/* <div className="w-16 h-16 bg-brand-magenta/5 text-brand-magenta rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-brand-magenta/5 text-brand-magenta rounded-2xl flex items-center justify-center mb-6">
                 {benefit.icon}
-              </div> */}
+              </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+              {/* <p className="text-gray-600 leading-relaxed">{benefit.description}</p>` */}
             </motion.div>
           ))}
         </motion.div>

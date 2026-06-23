@@ -16,7 +16,7 @@
 //     name: 'Lari Fortune',
 //     title: 'Online Coach & Tutor',
 //     intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
-//     fullStory: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Education Hub to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
+//     fullStory: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
 //     image: mentor1,
 //     resultsImage: earning1,
 //   },
@@ -165,7 +165,7 @@ const team = [
     name: 'Lari Fortune',
     role: 'Online Coach & Tutor',
     intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
-    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Education Hub to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
+    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
     image: mentor1,
     successImage: earning1,
   },
@@ -174,7 +174,7 @@ const team = [
     name: 'Hon. Shirley Lakeh',
     role: 'Online Coach & Tutor',
     intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
-    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Education Hub to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
+    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
     image: mentor2,
     successImage: earning2,
   },
@@ -183,7 +183,7 @@ const team = [
     name: 'Franck Ronald',
     role: 'Online Coach & Tutor',
     intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
-    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Education Hub to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
+    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
     image: mentor3,
     successImage: earning3,
   },
@@ -196,7 +196,7 @@ export const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Meet Our <span className="text-primary">Experts</span></h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            The dedicated professionals behind FSL Education Hub, committed to your teaching success.
+            The dedicated professionals behind FSL Tutor Academy, committed to your teaching success.
           </p>
         </div>
 
