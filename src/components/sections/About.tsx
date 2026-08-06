@@ -178,15 +178,15 @@ const team = [
     image: mentor2,
     successImage: earning2,
   },
-    {
-    id: 3,
-    name: 'Franck Ronald',
-    role: 'Online Coach & Tutor',
-    intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
-    story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
-    image: mentor3,
-    successImage: earning3,
-  },
+  //   {
+  //   id: 3,
+  //   name: 'Franck Ronald',
+  //   role: 'Online Coach & Tutor',
+  //   intro: 'Expert in online tutoring platforms with over 5 years of experience helping beginners scale their remote careers.',
+  //   story: 'Lari Fortune started from scratch, discovering the potential of online tutoring platforms when the remote work wave began. After successfully navigating the complexities of account creation and profile optimization, Lari decided to create FSL Tutor Academy to simplify the journey for others. Today, the hub has mentored hundreds of students into successful remote tutors.',
+  //   image: mentor3,
+  //   successImage: earning3,
+  // },
 ];
 
 export const About = () => {
@@ -200,7 +200,7 @@ export const About = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {team.map((member) => (
             <div key={member.name} className="bg-white rounded-3xl overflow-hidden shadow-sm border border-border group hover:shadow-xl transition-all duration-500">
               <div className="aspect-[4/5] overflow-hidden relative">
