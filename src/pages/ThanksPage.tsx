@@ -53,7 +53,7 @@ export function ThanksPage() {
           <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="bg-white p-4 rounded-2xl shadow-sm">
               <p className="text-gray-400 text-xs font-bold uppercase mb-1">Date</p>
-              <p className="text-gray-900 font-bold">July 5th</p>
+              <p className="text-gray-900 font-bold">August 29th</p>
             </div>
             <div className="bg-white p-4 rounded-2xl shadow-sm">
               <p className="text-gray-400 text-xs font-bold uppercase mb-1">Time</p>
@@ -62,7 +62,7 @@ export function ThanksPage() {
             <div className="col-span-2 bg-white p-4 rounded-2xl shadow-sm flex items-center justify-between">
               <div>
                 <p className="text-gray-400 text-xs font-bold uppercase mb-1 text-left">Location</p>
-                <p className="text-gray-900 font-bold">YouTube Live</p>
+                <p className="text-gray-900 font-bold">Google Meet Live</p>
               </div>
               <Play className="text-red-600" size={32} />
             </div>

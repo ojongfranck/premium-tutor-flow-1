@@ -66,10 +66,10 @@ export function Masterclass() {
                 <div className="inline-block bg-brand-magenta/5 text-brand-magenta px-4 py-1 rounded-full text-sm font-bold mb-4">
                   🎁 BONUS GIVEAWAY
                 </div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">Win $100 Cash!</h3>
-                <p className="text-gray-600">
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">Win Two International Tutoring Accounts</h3>
+                {/* <p className="text-gray-600">
                   One lucky participant who stays until the end of the masterclass will receive $100.
-                </p>
+                </p> */}
               </div>
 
               <div className="space-y-6 mb-10">
