@@ -155,7 +155,7 @@ import { ArrowRight, Star } from 'lucide-react';
 import mentor1 from '@/assets/mentor-1.jpg';
 import mentor2 from '@/assets/mentor-2.jpg';
 import mentor3 from '@/assets/mentor-3.jpg';
-import earning1 from '@/assets/earning-1.jpg';
+import earning1 from '@/assets/lolo.jpg';
 import earning2 from '@/assets/earning-2.jpg';
 import earning3 from '@/assets/earning-3.jpg';
 
