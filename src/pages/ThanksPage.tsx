@@ -62,7 +62,7 @@ export function ThanksPage() {
             <div className="col-span-2 bg-white p-4 rounded-2xl shadow-sm flex items-center justify-between">
               <div>
                 <p className="text-gray-400 text-xs font-bold uppercase mb-1 text-left">Location</p>
-                <p className="text-gray-900 font-bold">Google Meet Live</p>
+                <p className="text-gray-900 font-bold">Google Meet</p>
               </div>
               <Play className="text-red-600" size={32} />
             </div>

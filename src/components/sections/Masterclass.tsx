@@ -26,9 +26,9 @@ export function Masterclass() {
               <div className="grid sm:grid-cols-2 gap-6 mb-12">
                 {[
                   { icon: <Users />, label: 'Host', value: 'T. Lari Fortune' },
-                  { icon: <Calendar />, label: 'Date', value: 'July 5th' },
+                  { icon: <Calendar />, label: 'Date', value: 'August 29th' },
                   { icon: <Clock />, label: 'Time', value: '8 PM' },
-                  { icon: <MapPin />, label: 'Location', value: 'YouTube Live' },
+                  { icon: <MapPin />, label: 'Location', value: 'Google Meet' },
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/10">
                     <div className="w-10 h-10 bg-brand-gold rounded-xl flex items-center justify-center text-brand-magenta">
