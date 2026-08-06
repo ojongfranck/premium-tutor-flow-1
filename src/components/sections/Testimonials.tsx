@@ -186,7 +186,7 @@ export function Testimonials() {
     <section id="testimonials" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-center">
-          What My <span className="text-brand-magenta">Students Say</span>
+          Mentees<span className="text-brand-magenta">Results</span>
         </h2>
         {/* <p className="text-gray-600 max-w-2xl mx-auto text-lg text-center">
           Join 2+ successful mentorship clients who have transformed their careers with FSL Tutor Academy.
