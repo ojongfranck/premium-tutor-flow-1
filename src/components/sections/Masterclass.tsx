@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Calendar, Clock, MapPin, Users, Gift, PlayCircle, Link } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, Gift, PlayCircle} from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Masterclass() {
   return (
@@ -94,10 +95,9 @@ export function Masterclass() {
               </div>
 
               <Button
-              onClick={() => window.open('/apply')}
                 className="w-full bg-brand-magenta hover:bg-brand-fuchsia text-white rounded-full py-8 text-xl font-bold shadow-xl shadow-brand-magenta/20"
               >
-                Access Free Masterclass
+                <Link to="/apply">Access Free Masterclass</Link>
               </Button>
             </div>
             
