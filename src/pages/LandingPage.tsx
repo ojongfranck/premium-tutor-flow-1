@@ -23,7 +23,7 @@ export function LandingPage() {
           <Masterclass />
           {/* <Pricing /> */}
           <Testimonials />
-          <FAQ />
+          {/* <FAQ /> */}
           {/* <FollowUs /> */}
         </main>
         <Footer />

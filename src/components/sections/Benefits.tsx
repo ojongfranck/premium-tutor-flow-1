@@ -76,7 +76,7 @@ const item = {
 
 export function Benefits() {
   return (
-    <section id="benefits" className="py-24 bg-white">
+    <section id="benefits" className="py-15">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">

@@ -129,65 +129,65 @@ export function ApplyPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
-      <div className="max-w-2xl w-full">
-        {/* Header */}
-        <div className="mb-12 text-center">
-          <Link to="/" className="inline-flex items-center gap-2 mb-8">
-            <div className="w-10 h-10 bg-brand-magenta rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">F</span>
-            </div>
-            <span className="font-bold text-xl text-gray-900 tracking-tight">
-              FSL Tutor Academy
-            </span>
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Mentorship Application</h1>
-          <p className="text-gray-500">Step {step} of 6</p>
-        </div>
+    // <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
+    //   <div className="max-w-2xl w-full">
+    //     {/* Header */}
+    //     <div className="mb-12 text-center">
+    //       <Link to="/" className="inline-flex items-center gap-2 mb-8">
+    //         <div className="w-10 h-10 bg-brand-magenta rounded-lg flex items-center justify-center">
+    //           <span className="text-white font-bold text-xl">F</span>
+    //         </div>
+    //         <span className="font-bold text-xl text-gray-900 tracking-tight">
+    //           FSL Tutor Academy
+    //         </span>
+    //       </Link>
+    //       <h1 className="text-3xl font-bold text-gray-900 mb-2">Mentorship Application</h1>
+    //       <p className="text-gray-500">Step {step} of 6</p>
+    //     </div>
 
-        {/* Progress Bar */}
-        <div className="mb-12">
-          <Progress value={progress} className="h-2 bg-gray-200" />
-        </div>
+    //     {/* Progress Bar */}
+    //     <div className="mb-12">
+    //       <Progress value={progress} className="h-2 bg-gray-200" />
+    //     </div>
 
-        {/* Form Container */}
-        <div className="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-xl shadow-gray-200/50 border border-gray-100 min-h-[400px] flex flex-col justify-center">
-          <AnimatePresence mode="wait">
-            {step <= 4 ? (
-              <motion.div
-                key={`step-${step}`}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-              >
-                <h2 className="text-2xl font-bold text-gray-900 mb-8 leading-tight">
-                  {questions[step - 1].question}
-                </h2>
-                <div className="grid gap-4">
-                  {questions[step - 1].options.map((option) => (
-                    <button
-                      key={option}
-                      onClick={() => handleOptionSelect(questions[step - 1].field, option)}
-                      className={`w-full text-left p-6 rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group ${
-                        formData[questions[step - 1].field as keyof typeof formData] === option
-                          ? 'border-brand-magenta bg-brand-magenta/5 text-brand-magenta shadow-md'
-                          : 'border-gray-100 hover:border-brand-magenta/30 hover:bg-gray-50 text-gray-700'
-                      }`}
-                    >
-                      <span className="text-lg font-semibold">{option}</span>
-                      <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors ${
-                        formData[questions[step - 1].field as keyof typeof formData] === option
-                          ? 'bg-brand-magenta border-brand-magenta text-white'
-                          : 'border-gray-200 group-hover:border-brand-magenta/30'
-                      }`}>
-                        {formData[questions[step - 1].field as keyof typeof formData] === option && <Check size={14} />}
-                      </div>
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            ) : (
+    //     {/* Form Container */}
+    //     <div className="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-xl shadow-gray-200/50 border border-gray-100 min-h-[400px] flex flex-col justify-center">
+    //       <AnimatePresence mode="wait">
+    //         {step <= 4 ? (
+    //           <motion.div
+    //             key={`step-${step}`}
+    //             initial={{ opacity: 0, x: 20 }}
+    //             animate={{ opacity: 1, x: 0 }}
+    //             exit={{ opacity: 0, x: -20 }}
+    //             transition={{ duration: 0.3 }}
+    //           >
+    //             <h2 className="text-2xl font-bold text-gray-900 mb-8 leading-tight">
+    //               {questions[step - 1].question}
+    //             </h2>
+    //             <div className="grid gap-4">
+    //               {questions[step - 1].options.map((option) => (
+    //                 <button
+    //                   key={option}
+    //                   onClick={() => handleOptionSelect(questions[step - 1].field, option)}
+    //                   className={`w-full text-left p-6 rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group ${
+    //                     formData[questions[step - 1].field as keyof typeof formData] === option
+    //                       ? 'border-brand-magenta bg-brand-magenta/5 text-brand-magenta shadow-md'
+    //                       : 'border-gray-100 hover:border-brand-magenta/30 hover:bg-gray-50 text-gray-700'
+    //                   }`}
+    //                 >
+    //                   <span className="text-lg font-semibold">{option}</span>
+    //                   <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors ${
+    //                     formData[questions[step - 1].field as keyof typeof formData] === option
+    //                       ? 'bg-brand-magenta border-brand-magenta text-white'
+    //                       : 'border-gray-200 group-hover:border-brand-magenta/30'
+    //                   }`}>
+    //                     {formData[questions[step - 1].field as keyof typeof formData] === option && <Check size={14} />}
+    //                   </div>
+    //                 </button>
+    //               ))}
+    //             </div>
+    //           </motion.div>
+    //         ) : (
               <motion.div
                 key="step-6"
                 initial={{ opacity: 0, x: 20 }}
@@ -260,27 +260,27 @@ export function ApplyPage() {
                   </div>
                 </form>
               </motion.div>
-            )}
-          </AnimatePresence>
+    //         )}
+    //       </AnimatePresence>
 
-          {/* Navigation Buttons */}
-          <div className="mt-12 flex justify-between items-center pt-8 border-t border-gray-100">
-            {step > 1 ? (
-              <button
-                onClick={() => setStep(step - 1)}
-                className="flex items-center gap-2 text-gray-500 hover:text-brand-magenta font-bold transition-colors"
-              >
-                <ArrowLeft size={18} /> Back
-              </button>
-            ) : (
-              <div />
-            )}
-            <p className="text-xs text-gray-400 max-w-[250px] text-right italic">
-              Applications are reviewed to maintain a serious and supportive community.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    //       {/* Navigation Buttons */}
+    //       <div className="mt-12 flex justify-between items-center pt-8 border-t border-gray-100">
+    //         {step > 1 ? (
+    //           <button
+    //             onClick={() => setStep(step - 1)}
+    //             className="flex items-center gap-2 text-gray-500 hover:text-brand-magenta font-bold transition-colors"
+    //           >
+    //             <ArrowLeft size={18} /> Back
+    //           </button>
+    //         ) : (
+    //           <div />
+    //         )}
+    //         <p className="text-xs text-gray-400 max-w-[250px] text-right italic">
+    //           Applications are reviewed to maintain a serious and supportive community.
+    //         </p>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }

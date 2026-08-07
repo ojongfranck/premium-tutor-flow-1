@@ -191,7 +191,7 @@ const team = [
 
 export const About = () => {
   return (
-    <section id="team" className="py-24 bg-[#F8F8FA]">
+    <section id="team" className="py-15">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Meet Our <span className="text-primary">Experts</span></h2>
