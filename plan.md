@@ -69,7 +69,7 @@ Build a premium, high-converting landing page, application flow, and thank-you p
 - **Files:**
   - `src/lib/lenis-provider.tsx` (Smooth scroll)
   - `src/components/sections/*.tsx` (Modular sections)
-  - `src/app/apply/page.tsx` (Application form)
+  <!-- - `src/app/apply/page.tsx` (Application form) -->
   - `src/app/api/notion/route.ts` (Submission handler)
   - `src/app/thanks/page.tsx` (Thank you)
 - **Depends on:** none

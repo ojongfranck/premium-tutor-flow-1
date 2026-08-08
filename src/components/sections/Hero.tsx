@@ -126,7 +126,8 @@ export function Hero() {
               asChild
               className="w-full bg-brand-magenta hover:bg-brand-fuchsia text-white rounded-full px-8 py-7 mt-10 text-lg shadow-xl shadow-brand-magenta/20 transition-all hover:scale-105 active:scale-95"
             >
-              <Link to="/apply">Start Application</Link>
+              <a href='/#apply'>Start Application</a>
+              
             </Button>
           </motion.div>
           </div>

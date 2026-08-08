@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { LandingPage } from '@/pages/LandingPage';
-import { ApplyPage } from '@/pages/ApplyPage';
+import { ApplyPage } from '@/components/sections/ApplyPage';
 import { ThanksPage } from '@/pages/ThanksPage';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/apply" element={<ApplyPage />} />
+        <Route path="/#apply" element={<ApplyPage />} />
         <Route path="/thanks" element={<ThanksPage />} />
       </Routes>
       <Toaster position="top-center" richColors />

@@ -4,7 +4,8 @@ import { About } from '@/components/sections/About';
 import { Results } from '@/components/sections/Results';
 import { Benefits } from '@/components/sections/Benefits';
 import { Masterclass } from '@/components/sections/Masterclass';
-// import { Pricing } from '@/components/sections/Pricing';
+import {ApplyPage} from '@/components/sections/ApplyPage';
+import { Pricing } from '@/components/sections/Pricing';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { FAQ } from '@/components/sections/FAQ';
 import { FollowUs, Footer } from '@/components/sections/FollowUs';
@@ -17,12 +18,13 @@ export function LandingPage() {
         <Navbar />
         <main>
           <Hero />
-          <About />
+          {/* <About /> */}
           <Results />
           <Benefits />
           <Masterclass />
-          {/* <Pricing /> */}
+          <Pricing />
           <Testimonials />
+          <ApplyPage />
           {/* <FAQ /> */}
           {/* <FollowUs /> */}
         </main>

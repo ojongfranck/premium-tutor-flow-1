@@ -181,11 +181,11 @@ export function Results() {
       </div>
 
       <div className="flex relative">
-        <div ref={scrollRef} className="flex gap-8 whitespace-nowrap">
+        <div className="gap-8 whitespace-nowrap">
           {[...testimonials, ...testimonials].map((t, index) => (
             <div
               key={index}
-              className="w-[350px] flex-shrink-0 bg-gray-50  rounded-[2rem] border border-gray-100 relative group hover:bg-white hover:shadow-xl transition-all duration-300"
+              className="bg-gray-50 rounded-[2rem] border border-gray-100 relative group hover:bg-white hover:shadow-xl transition-all duration-300"
             >
               {/* <div className="absolute top-6 right-8 text-brand-magenta/10 group-hover:text-brand-magenta/20 transition-colors">
                 <Quote size={40} fill="currentColor" />
@@ -204,7 +204,7 @@ export function Results() {
               <img 
               src= {t.review}
               alt="" 
-              className='w-full h-full rounded-sm'
+              className='w-full h-full mb-10 rounded-sm'
               
               />
               

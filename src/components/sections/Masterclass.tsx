@@ -97,7 +97,8 @@ export function Masterclass() {
               <Button
                 className="w-full bg-brand-magenta hover:bg-brand-fuchsia text-white rounded-full py-8 text-xl font-bold shadow-xl shadow-brand-magenta/20"
               >
-                <Link to="/apply">Access Free Masterclass</Link>
+                {/* <Link href="/#apply">Access Free Masterclass</Link> */}
+                <a href='/#apply'>Access Free Masterclass</a> 
               </Button>
             </div>
             
